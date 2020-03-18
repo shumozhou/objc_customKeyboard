@@ -10,7 +10,7 @@ Pod::Spec.new do |s|
   s.framework 	= 'UIKit'
   s.summary      = 'A customKeyboard for iOS'
   s.author             = { "zhouchangmi" => "zhouchangmi@gmail.com" }
-  s.source_files  = 'objc_customKeyboard", "objc_customKeyboard/**/*.{h,m}'
+  s.source_files  = 'objc_customKeyboard/**/*.{h,m}'
   s.homepage     = 'https://github.com/shumozhou/objc_customKeyboard'
   s.source       = { :git => 'https://github.com/shumozhou/objc_customKeyboard.git', :tag => s.version }
   
